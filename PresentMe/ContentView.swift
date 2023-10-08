@@ -9,16 +9,20 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        VStack (alignment:.center){
+            Image("me").resizable().frame(height: 300).clipShape(Circle()).overlay(Circle().stroke(Color.gray, lineWidth: 10))
+            
+            .padding()
+            Text("Amal Alshahrani").font(.largeTitle)
+            Text("Hello, my name is Amal Alshahrani and I am a  software engineer my passion lies in developing iOS apps and I am interested in game development. ").font(.callout).foregroundColor(.brown)
         }
         .padding()
+        .padding()
+        
     }
 }
 
 #Preview {
     ContentView()
 }
+
