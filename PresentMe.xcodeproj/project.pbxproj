@@ -14,6 +14,7 @@
 		3D9E76072AD2E26100412E45 /* PresentMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9E76062AD2E26100412E45 /* PresentMeTests.swift */; };
 		3D9E76112AD2E26100412E45 /* PresentMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9E76102AD2E26100412E45 /* PresentMeUITests.swift */; };
 		3D9E76132AD2E26100412E45 /* PresentMeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9E76122AD2E26100412E45 /* PresentMeUITestsLaunchTests.swift */; };
+		56EA023A2AD2F3FD00B60796 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EA02392AD2F3FD00B60796 /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		3D9E760C2AD2E26100412E45 /* PresentMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PresentMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D9E76102AD2E26100412E45 /* PresentMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentMeUITests.swift; sourceTree = "<group>"; };
 		3D9E76122AD2E26100412E45 /* PresentMeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentMeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		56EA02392AD2F3FD00B60796 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				3D9E75F72AD2E26000412E45 /* ContentView.swift */,
 				3D9E75F92AD2E26100412E45 /* Assets.xcassets */,
 				3D9E75FB2AD2E26100412E45 /* Preview Content */,
+				56EA02392AD2F3FD00B60796 /* File.swift */,
 			);
 			path = PresentMe;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D9E75F82AD2E26000412E45 /* ContentView.swift in Sources */,
+				56EA023A2AD2F3FD00B60796 /* File.swift in Sources */,
 				3D9E75F62AD2E26000412E45 /* PresentMeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
